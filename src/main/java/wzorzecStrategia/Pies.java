@@ -26,5 +26,17 @@ public class Pies {
     public void ruszajSie() {
     ruszanie.ruszajSie();
     }
+
+    public void setSzczekanie(Szczekanie szczekanie) {
+        this.szczekanie = szczekanie;
+    }
+
+    public void setSpanie(Spanie spanie) {
+        this.spanie = spanie;
+    }
+
+    public void setRuszanie(Ruszanie ruszanie) {
+        this.ruszanie = ruszanie;
+    }
 }
 

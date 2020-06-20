@@ -10,8 +10,10 @@ public class PsiProgram {
         piesZabawka.ruszajSie();
         piesZabawka.spij();
         piesZabawka.szczekaj();
-
-
+       // zmiana strategi dla psa zabawki podczas trwania programu
+        System.out.println("Pies zabawka zaczyna biegać");
+        piesZabawka.setRuszanie(new Bieganie());
+        piesZabawka.ruszajSie();
 
     }
 }
